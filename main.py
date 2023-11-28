@@ -12,7 +12,7 @@ def data_plot():
     x_list = []
     y_list = []
     for item in data["market-price"]:
-        x_list.append(item["x"])
+        x_list.append(item['x'])
         y_list.append(item['y'])
     return x_list, y_list
 
